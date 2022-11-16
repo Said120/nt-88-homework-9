@@ -1,0 +1,477 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header.main-header {
+  width: 1440px;
+  height: 768px;
+  margin: 0 auto;
+  background: linear-gradient(#4a99d3 -400%, rgba(74, 153, 211, 0)), #ffffff;
+  box-shadow: 0px 4px 16px rgba(75, 0, 129, 0.26);
+  padding-top: 46.52px;
+}
+header.main-header .logo {
+  width: 1196.76px;
+  height: 31.48px;
+  display: flex;
+  margin-left: 123.24px;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+}
+header.main-header .logo ul {
+  display: flex;
+  gap: 3rem;
+  list-style: none;
+  font-size: 20px;
+}
+header.main-header .logo ul :first-child {
+  color: blue;
+}
+header.main-header .hero {
+  width: 1196.76px;
+  height: 534.78px;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 109px;
+  margin-top: 130px;
+}
+header.main-header .hero .hero-text {
+  width: 636px;
+  height: 384px;
+  margin-top: 75px;
+}
+header.main-header .hero .hero-text h1 {
+  width: 493px;
+  height: 140px;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 70px;
+  letter-spacing: 0.02em;
+  color: #260041;
+}
+header.main-header .hero .hero-text p {
+  width: 636px;
+  height: 110px;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 36px;
+  color: #260041;
+}
+header.main-header .hero .hero-text .pm-as {
+  display: flex;
+  gap: 1rem;
+  margin-top: 73.67px;
+}
+
+section#showcase {
+  width: 1440px;
+  height: 3300px;
+  margin: 0 auto;
+}
+section#showcase .showcase-cards {
+  width: 1287px;
+  height: 1302px;
+  margin-top: 146px;
+  margin-left: 120px;
+}
+section#showcase .showcase-cards h2 {
+  width: 395px;
+  height: 138px;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 46px;
+  letter-spacing: 0.05em;
+  color: #260041;
+}
+section#showcase .showcase-cards .cards {
+  display: grid;
+  grid-template-columns: repeat(3, 380px);
+  grid-template-rows: repeat(2, 525px);
+  gap: 30px;
+  margin-top: 84px;
+}
+section#showcase .showcase-cards .cards .card1 {
+  background: #ffffff;
+  box-shadow: 5px 20px 50px rgba(74, 153, 211, 0.2);
+  border-radius: 10px;
+}
+section#showcase .showcase-cards .cards .card1 img {
+  margin-top: 48px;
+  margin-left: 74px;
+}
+section#showcase .showcase-cards .cards .card1 h3 {
+  margin-top: 56px;
+  margin-left: 48px;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: #0f001a;
+}
+section#showcase .showcase-cards .cards .card1 p {
+  width: 284px;
+  height: 103px;
+  margin-left: 48px;
+  margin-top: 16px;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #0f001a;
+  opacity: 0.6;
+}
+section#showcase .showcase-cards .cards .card1 .link {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+section#showcase .showcase-cards .cards .card1 .link a {
+  margin-left: 48px;
+  margin-top: 62px;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #4a99d3;
+}
+section#showcase .showcase-cards .cards .card1 .link img {
+  position: absolute;
+  left: 4rem;
+  top: 1.3rem;
+}
+section#showcase .showcase-cards .cards .card2 {
+  background: #ffffff;
+  box-shadow: 5px 20px 50px rgba(74, 153, 211, 0.2);
+  border-radius: 10px;
+}
+section#showcase .showcase-cards .cards .card2 img {
+  margin-top: 10px;
+  margin-left: 78px;
+}
+section#showcase .showcase-cards .cards .card2 h3 {
+  margin-top: 39px;
+  margin-left: 48px;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: #0f001a;
+}
+section#showcase .showcase-cards .cards .card2 p {
+  width: 284px;
+  height: 103px;
+  margin-left: 48px;
+  margin-top: 16px;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #0f001a;
+  opacity: 0.6;
+}
+section#showcase .showcase-cards .cards .card2 .link {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+section#showcase .showcase-cards .cards .card2 .link a {
+  margin-left: 48px;
+  margin-top: 52px;
+  margin-bottom: 48px;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #4a99d3;
+}
+section#showcase .showcase-cards .cards .card2 .link img {
+  position: absolute;
+  left: 4rem;
+  top: 3rem;
+}
+section#showcase .showcase-cards .cards .card3 {
+  background: #ffffff;
+  box-shadow: 5px 20px 50px rgba(74, 153, 211, 0.2);
+  border-radius: 10px;
+}
+section#showcase .showcase-cards .cards .card3 img {
+  margin-top: 49px;
+  margin-left: 100px;
+}
+section#showcase .showcase-cards .cards .card3 h3 {
+  margin-top: 56px;
+  margin-left: 48px;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  letter-spacing: 0.02em;
+  color: #0f001a;
+}
+section#showcase .showcase-cards .cards .card3 p {
+  width: 284px;
+  height: 103px;
+  margin-left: 48px;
+  margin-top: 16px;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #0f001a;
+  opacity: 0.6;
+}
+section#showcase .showcase-cards .cards .card3 .link {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  position: relative;
+}
+section#showcase .showcase-cards .cards .card3 .link a {
+  margin-left: 48px;
+  margin-top: 62px;
+  margin-bottom: 48px;
+  text-decoration: none;
+  font-family: sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 30px;
+  letter-spacing: 0.05em;
+  color: #4a99d3;
+}
+section#showcase .showcase-cards .cards .card3 .link img {
+  position: absolute;
+  left: 3rem;
+  top: 1.2rem;
+}
+section#showcase .working {
+  width: 1440px;
+  height: 476px;
+  margin-top: 90px;
+  padding-top: 95px;
+  background: rgba(74, 153, 211, 0.1);
+}
+section#showcase .working .functions {
+  width: 950px;
+  height: 286px;
+  margin-left: 245px;
+  text-align: center;
+}
+section#showcase .working .functions h2 {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 27px;
+  color: #4a99d3;
+}
+section#showcase .working .functions .parts {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 90px;
+  text-align: center;
+  gap: 106px;
+}
+section#showcase .working .functions .parts .part1 h3 {
+  margin-top: 31.25px;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 19px;
+}
+section#showcase .working .functions .parts .part1 p {
+  margin-top: 10px;
+  width: 224px;
+  height: 52px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #0f001a;
+}
+section#showcase .working .functions .parts .part2 h3 {
+  margin-top: 31.25px;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 19px;
+}
+section#showcase .working .functions .parts .part2 p {
+  margin-top: 10px;
+  width: 224px;
+  height: 52px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #0f001a;
+}
+section#showcase .working .functions .parts .part3 h3 {
+  margin-top: 31.25px;
+  font-family: sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 19px;
+}
+section#showcase .working .functions .parts .part3 p {
+  margin-top: 10px;
+  width: 224px;
+  height: 52px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #0f001a;
+}
+section#showcase .comment {
+  width: 1075px;
+  height: 557px;
+  margin-top: 87px;
+  margin-left: 120px;
+  text-align: center;
+}
+section#showcase .comment h2 {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 27px;
+  color: #0f001a;
+}
+section#showcase .comment .client-comment {
+  display: flex;
+  gap: 100px;
+}
+section#showcase .comment .client-comment .client-photo {
+  margin-top: 11px;
+}
+section#showcase .comment .client-comment .client-text {
+  text-align: start;
+  margin-top: 211.12px;
+}
+section#showcase .comment .client-comment .client-text p {
+  margin-top: 43.12px;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #0f001a;
+  opacity: 0.5;
+}
+section#showcase .comment .client-comment .client-text h3 {
+  margin-top: 40px;
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 19px;
+  color: #0f001a;
+}
+section#showcase .app {
+  width: 1059px;
+  height: 458.39px;
+  margin-top: 158px;
+  margin-left: 120px;
+  display: flex;
+  gap: 99px;
+}
+section#showcase .app .app-text {
+  margin-top: 114px;
+  text-align: center;
+}
+section#showcase .app .app-text h2 {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 26px;
+  color: #0f001a;
+}
+section#showcase .app .app-text p {
+  margin-top: 15.58px;
+  font-family: sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0f001a;
+  opacity: 0.5;
+}
+section#showcase .app .app-text .download {
+  margin-top: 59.91px;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+footer#main-footer {
+  width: 1440px;
+  height: 400px;
+  margin: 0 auto;
+  background: #4a99d3;
+  color: #ffffff;
+  padding-top: 56.29px;
+  padding-right: 154px;
+}
+footer#main-footer .footer-links {
+  width: 1440px;
+  height: 292px;
+  display: flex;
+  margin-left: 126.75px;
+  margin-right: 154px;
+  gap: 60px;
+}
+footer#main-footer .footer-links h3 {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 19px;
+  color: #ffffff;
+}
+footer#main-footer .footer-links ul {
+  list-style: none;
+  margin-top: 34px;
+}
+footer#main-footer .footer-links ul li a {
+  color: #ffffff;
+  text-decoration: none;
+  row-gap: 18px;
+  font-weight: 200;
+  font-size: 14px;
+  line-height: 14px;
+}
+footer#main-footer .footer-links p {
+  width: 364px;
+  height: 52px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 26px;
+  color: #ffffff;
+}
+footer#main-footer .footer-links .line {
+  width: 90px;
+  border: 2px solid white;
+  margin-top: 5px;
+}
+footer#main-footer .line2 {
+  width: 1440px;
+  border: 1px solid white;
+}
+footer#main-footer .copyright {
+  width: 1440px;
+  height: 57px;
+  display: flex;
+  margin-left: 124px;
+  gap: 50rem;
+  align-items: center;
+}
+footer#main-footer .copyright h3 {
+  font-family: sans-serif;
+  font-weight: 700;
+  font-size: 10.41px;
+  line-height: 11px;
+}/*# sourceMappingURL=main.css.map */
